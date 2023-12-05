@@ -28,8 +28,8 @@ exports.main = async (event, context) => {
 };
 
 async function login(code) {
-	const mp_appid = 'wx29329fca24967336';
-	const mp_appsecret = 'a0347169cae5dafef48a53862873bb04';
+	const mp_appid = 'wx12212122';
+	const mp_appsecret = '12414';
 	const api = `https://api.weixin.qq.com/sns/jscode2session?appid=${mp_appid}&secret=${mp_appsecret}&js_code=${code}&grant_type=authorization_code`;
 	const res = await uniCloud.httpclient.request(api, {
 		dataType: 'json',
