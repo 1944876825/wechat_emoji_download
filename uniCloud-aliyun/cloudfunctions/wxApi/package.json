@@ -1,0 +1,7 @@
+{
+  "name": "wxApi",
+  "dependencies": {
+    "xmljx": "file:../common/xmljx"
+  },
+  "extensions": {}
+}

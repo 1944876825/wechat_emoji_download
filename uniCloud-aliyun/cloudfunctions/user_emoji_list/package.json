@@ -1,0 +1,7 @@
+{
+  "name": "user_emoji_list",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
